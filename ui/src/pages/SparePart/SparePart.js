@@ -1,74 +1,24 @@
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
+import {Col, Row, Container} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
+import SideNav from "../../components/SideNav";
 
 const SparePart = () => {
     return (
         <Row>
             <Col sm={2}>
                 <Container>
-                    <div>
-                        <ul>
-                            <li title="İş Makinaları ve Ekipmanları " class="list-group-item">
-                                <a
-                                    title="İş Makinaları ve Ekipmanları "
-                                    href="https://www.makinaturkiye.com/is-makinalari-ve-ekipmanlari-c-99587 "
-                                >
-                                    İş Makinaları
-                                </a>
-                            </li>
-                            <li title="Forklift " class="list-group-item active">
-                                &nbsp;
-                                <a
-                                    title="Forklift "
-                                    href="https://www.makinaturkiye.com/forklift-c-123372 "
-                                >
-                                    Forklift
-                                    <span class="text-muted text-sm">(298) </span>
-                                </a>
-                            </li>
-                            <li title="Akülü Forklift " class="list-group-item">
-                                &nbsp; &nbsp;
-                                <a
-                                    title="Akülü Forklift "
-                                    href="https://www.makinaturkiye.com/akulu-forklift-c-123690 "
-                                >
-                                    Akülü Forklift
-                                    <span class="text-muted text-sm">(174) </span>
-                                </a>
-                            </li>
-                            <li title="Benzinli Forklift " class="list-group-item">
-                                &nbsp; &nbsp;
-                                <a
-                                    title="Benzinli Forklift "
-                                    href="https://www.makinaturkiye.com/benzinli-forklift-c-123601 "
-                                >
-                                    Benzinli Forklift
-                                    <span class="text-muted text-sm">(4) </span>
-                                </a>
-                            </li>
-                            <li title="Dizel Forklift " class="list-group-item">
-                                &nbsp; &nbsp;
-                                <a
-                                    title="Dizel Forklift "
-                                    href="https://www.makinaturkiye.com/dizel-forklift-c-123373 "
-                                >
-                                    Dizel Forklift
-                                    <span class="text-muted text-sm">(108) </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <SideNav/>
                 </Container>
             </Col>
             <Col sm={9}>
                 <Container className="container">
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -88,10 +38,10 @@ const SparePart = () => {
                     </Card>
 
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -110,10 +60,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -132,10 +82,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -154,10 +104,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -176,10 +126,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -198,10 +148,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -220,10 +170,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -242,10 +192,10 @@ const SparePart = () => {
                         </Card.Body>
                     </Card>
                     <Card
-                        style={{ width: "18rem", marginBottom: "10px" }}
+                        style={{width: "18rem", marginBottom: "10px"}}
                         className="card"
                     >
-                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                        <Card.Img variant="top" src="holder.js/100px180?text=Image cap"/>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>

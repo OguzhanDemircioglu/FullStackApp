@@ -4,8 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 import SparePart from "./pages/SparePart/SparePart";
+import SideNav from "./components/SideNav";
 
 function App() {
   return (
