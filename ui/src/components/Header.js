@@ -26,6 +26,9 @@ const Header = () => {
           <NavLink className="nav-link" href="/contact">
             Contact
           </NavLink>
+          <NavLink className="nav-link" href="/sparePart">
+            Yedek Parça
+          </NavLink>
         </Nav>
 
         <NavLink className="nav-link" href="/about">
