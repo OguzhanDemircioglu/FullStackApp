@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Row, Container} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import SideNav from "../../components/SideNav";
+import SideNav from "../../components/sideNav/SideNav";
 
 const SparePart = () => {
     return (
