@@ -6,8 +6,9 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/footer/Footer";
 import SparePart from "./pages/SparePart/SparePart";
-import SideNav from "./components/sideNav/SideNav";
-import ProductDetail from "./components/productDetail/ProductDetail";
+import Products from "./pages/Products/Products";
+import ProductDetail from "./components/yedekProductDetail/YedekProductDetail";
+import ProductDetailDeneme from "./components/ProductDetailDeneme/ProductDetailDeneme";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/sparePart" element={<SparePart />}></Route>
-          <Route path="/ProductDetail" element={<ProductDetail />}></Route>
+        <Route path="/sparePart" element={<SparePart />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+        <Route path="/yedekProductDetail" element={<ProductDetail />}></Route>
+        <Route path="/deneme" element={<ProductDetailDeneme />}></Route>
       </Routes>
       <Footer />
     </>

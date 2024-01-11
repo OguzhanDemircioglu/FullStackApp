@@ -3,9 +3,7 @@ import "./Home.css";
 import SparePart from "../SparePart/SparePart";
 
 const Home = () => {
-  return <div className="body-div">
-    <SparePart/>
-  </div>;
+  return <div className="body-div">Home Page</div>;
 };
 
 export default Home;
