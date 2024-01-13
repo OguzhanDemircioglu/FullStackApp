@@ -4,14 +4,9 @@ import ProductList from "../../components/productList/ProductList";
 
 const Products = () => {
   return (
-    <Row>
-      <Col sm={2}>
-        <Container>Ürünler categori</Container>
-      </Col>
-      <Col sm={9}>
+
         <ProductList />
-      </Col>
-    </Row>
+
   );
 };
 

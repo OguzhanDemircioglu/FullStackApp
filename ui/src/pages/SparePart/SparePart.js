@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import SparePartList from "../../components/sparePartList/SparePartList";
 
 const SparePart = () => {
   return (
@@ -9,7 +8,6 @@ const SparePart = () => {
         <Container>yedek parçalar kategori</Container>
       </Col>
       <Col sm={9}>
-        <SparePartList />
       </Col>
     </Row>
   );
