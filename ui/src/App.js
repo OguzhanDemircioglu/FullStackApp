@@ -7,8 +7,7 @@ import Contact from "./pages/Contact/Contact";
 import Footer from "./components/footer/Footer";
 import SparePart from "./pages/SparePart/SparePart";
 import Products from "./pages/Products/Products";
-import ProductDetail from "./components/yedekProductDetail/YedekProductDetail";
-import ProductDetailDeneme from "./components/ProductDetailDeneme/ProductDetailDeneme";
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
 
 function App() {
   return (
@@ -20,8 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/sparePart" element={<SparePart />}></Route>
         <Route path="/products" element={<Products />}></Route>
-        <Route path="/yedekProductDetail" element={<ProductDetail />}></Route>
-        <Route path="/deneme" element={<ProductDetailDeneme />}></Route>
+        <Route path="/productDetail" element={<ProductDetail />}></Route>
       </Routes>
       <Footer />
     </>

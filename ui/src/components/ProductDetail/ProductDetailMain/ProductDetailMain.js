@@ -1,28 +1,49 @@
 import React from "react";
-import "./ProductDetailDeneme.css";
+import "./ProductDetailMain.css";
 
-const ProductDetailDeneme = () => {
+const ProductDetailMain = (props) => {
+  //listeyi döndük
   return (
     <div className="container">
-      <div className="card">
+      <div className="productDetailCard">
         <div className="container-fliud">
           <div className="wrapper row">
             <div className="preview col-md-6">
               <div className="preview-pic tab-content">
                 <div className="tab-pane" id="pic-1">
-                  <img src="http://placekitten.com/400/252"  alt=""/>
+                  <img
+                    src="http://placekitten.com/400/252"
+                    alt=""
+                    className="img"
+                  />
                 </div>
                 <div className="tab-pane active" id="pic-2">
-                  <img src="http://placekitten.com/400/252" />
+                  <img
+                    src="http://placekitten.com/400/252"
+                    alt=""
+                    className="img"
+                  />
                 </div>
                 <div className="tab-pane" id="pic-3">
-                  <img src="http://placekitten.com/400/252" />
+                  <img
+                    src="http://placekitten.com/400/252"
+                    alt=""
+                    className="img"
+                  />
                 </div>
                 <div className="tab-pane" id="pic-4">
-                  <img src="http://placekitten.com/400/252" />
+                  <img
+                    src="http://placekitten.com/400/252"
+                    alt=""
+                    className="img"
+                  />
                 </div>
                 <div className="tab-pane" id="pic-5">
-                  <img src="http://placekitten.com/400/252" />
+                  <img
+                    src="http://placekitten.com/400/252"
+                    alt=""
+                    className="img"
+                  />
                 </div>
               </div>
               <ul className="preview-thumbnail nav nav-tabs">
@@ -118,4 +139,4 @@ const ProductDetailDeneme = () => {
   );
 };
 
-export default ProductDetailDeneme;
+export default ProductDetailMain;

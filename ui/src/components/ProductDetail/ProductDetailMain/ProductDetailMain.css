@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 
-img {
+.img {
   max-width: 100%;
 }
 
@@ -55,7 +55,7 @@ img {
 .tab-content {
   overflow: hidden;
 }
-.card {
+.productDetailCard {
   margin-top: 50px;
   background: #eee;
   padding: 3em;

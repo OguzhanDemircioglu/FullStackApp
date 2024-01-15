@@ -23,20 +23,11 @@ const Header = () => {
           <NavLink className="nav-link" href="/about">
             About
           </NavLink>
-          <NavLink className="nav-link" href="/contact">
-            Contact
-          </NavLink>
           <NavLink className="nav-link" href="/sparePart">
             Yedek Parça
           </NavLink>
           <NavLink className="nav-link" href="/Products">
             Ürünler
-          </NavLink>
-          <NavLink className="nav-link" href="/yedekProductDetail">
-            Yedek Product Detail
-          </NavLink>
-          <NavLink className="nav-link" href="/deneme">
-            Deneme
           </NavLink>
         </Nav>
 
