@@ -26,9 +26,13 @@ const Header = () => {
           <NavLink className="nav-link" href="/sparePart">
             Yedek Parça
           </NavLink>
-          <NavLink className="nav-link" href="/Products">
+          <NavLink className="nav-link" href="/products">
             Ürünler
           </NavLink>
+          <NavLink className="nav-link" href="/productDetail">
+            productDetail
+          </NavLink>
+
         </Nav>
 
         <NavLink className="nav-link" href="/about">

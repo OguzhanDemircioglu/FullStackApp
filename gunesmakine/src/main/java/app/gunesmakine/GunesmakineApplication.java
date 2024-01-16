@@ -20,7 +20,7 @@ public class GunesmakineApplication {
     public static void main(String[] args) {
         SpringApplication.run(GunesmakineApplication.class, args);
     }
-    @Bean
+ /*   @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
@@ -30,6 +30,17 @@ public class GunesmakineApplication {
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(false).maxAge(3600);
+            }
+        };
+    }*/
+
+
+    @Bean
+    public WebMvcConfigurer webMvcConfigurer(){
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**").allowedOrigins("*").allowedMethods("*");
             }
         };
     }

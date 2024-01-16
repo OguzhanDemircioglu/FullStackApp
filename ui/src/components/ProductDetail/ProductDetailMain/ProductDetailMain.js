@@ -1,8 +1,28 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./ProductDetailMain.css";
+import {BASE_URL} from "../../../common/constant";
 
-const ProductDetailMain = (props) => {
-  //listeyi döndük
+const ProductDetailMain = () => {
+  const [item, setItem] = useState({});
+
+  const addPosts = async () => {
+    await fetch(BASE_URL+'products/findAll', {
+      method: 'POST'
+    }).then((data) => {
+          console.log(data);
+          setItem(data);
+        })
+        .catch((err) => {
+          console.log(err.message);
+        });
+  };
+
+  useEffect(() => {
+
+    addPosts();
+
+  }, []);
+
   return (
     <div className="container">
       <div className="productDetailCard">
