@@ -1,5 +1,6 @@
 package app.gunesmakine.application.models;
 
+import app.gunesmakine.application.enums.DealerType;
 import app.gunesmakine.application.enums.ModelType;
 import app.gunesmakine.application.enums.ProductType;
 import lombok.AllArgsConstructor;
@@ -27,6 +28,7 @@ public class Product {
     private String adress;
     private ModelType modelType;
     private ProductType productType;
+    private DealerType dealerType;
     private BigDecimal price;
     private String showCasePicture;
     @DocumentReference
