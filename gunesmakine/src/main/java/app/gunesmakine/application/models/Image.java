@@ -19,6 +19,7 @@ public class Image {
     @Id
     private ObjectId imageId;
     private String imagePath;
+    private boolean isShowCasePicture;
     private LocalDateTime cDate;
     private LocalDateTime uDate;
 
